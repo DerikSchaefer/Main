@@ -101,7 +101,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 body, input, textarea, select {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.85em;
-  color: #888;
+  color: #fff;
   font-weight: 300;
   font-size: 13pt;
 }
@@ -145,19 +145,19 @@ sup {
 }
 
 blockquote {
-  border-left: solid 0.75em #eee;
+  border-left: solid 0.75em #fff;
   padding: 1em 0 1em 1.5em;
   font-style: italic;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #e0e7e9;
+  color: #fff;
   margin: 0 0 0.75em 0;
 }
 
 h1 a, h2 a, h4 a, h5 a, h6 a {
   text-decoration: none;
-  color: #e0e7e9;
+  color: #fff;
 }
 
 h3 a {
@@ -172,12 +172,12 @@ h1 {
   font-size: 3.25em;
   letter-spacing: -0.025em;
   font-weight: 300;
-  color: #e0e7e9;
+  color: #fff;
 }
 
 h1 strong {
   font-weight: 700;
-  color: #e0e7e9;
+  color: #fff;
 }
 
 h2 {
@@ -209,7 +209,7 @@ hr {
 
 p, ul, ol, dl, table {
   margin-bottom: 2em;
-  color: #e0e7e9;
+  color: #fff;
 }
 
 header {
@@ -1640,6 +1640,10 @@ article:last-child {
 .image img {
   display: block;
   width: 100%;
+}
+
+.pic01 {
+  height: 270px;
 }
 
 .image.fit {
